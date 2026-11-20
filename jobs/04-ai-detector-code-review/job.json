@@ -1,0 +1,17 @@
+{
+  "project": "C:/dev/projects/ai-detector",
+  "ai": "any",
+  "status": "passed",
+  "check": [
+    "C:/Users/georg/AppData/Local/Programs/Python/Python312/python.exe",
+    "C:/dev/projects/quota-pilot/checks/job_check.py",
+    "--only-paths",
+    "reviews/",
+    "--",
+    "C:/dev/projects/ai-detector/.venv/Scripts/python.exe",
+    "-m",
+    "pytest",
+    "tests",
+    "-q"
+  ]
+}

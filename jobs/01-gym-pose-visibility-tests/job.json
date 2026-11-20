@@ -1,0 +1,17 @@
+{
+  "project": "C:/dev/projects/gym",
+  "ai": "any",
+  "status": "passed",
+  "check": [
+    "C:/Users/georg/AppData/Local/Programs/Python/Python312/python.exe",
+    "C:/dev/projects/quota-pilot/checks/job_check.py",
+    "--min-new-tests",
+    "4",
+    "--",
+    "C:/dev/projects/gym/.venv/Scripts/python.exe",
+    "-m",
+    "pytest",
+    "tests",
+    "-q"
+  ]
+}
